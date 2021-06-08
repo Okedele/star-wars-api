@@ -1,0 +1,30 @@
+{
+  "name": "star-wars-api",
+  "version": "1.0.0",
+  "description": "REST API for fetching star wars movies",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Okedele/star-wars-api.git"
+  },
+  "keywords": [
+    "star-wars",
+    "node.js"
+  ],
+  "author": "Okedele",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Okedele/star-wars-api/issues"
+  },
+  "homepage": "https://github.com/Okedele/star-wars-api#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.13"
+  }
+}
